@@ -12,9 +12,9 @@ class cont{
 	public:
 		string email;
 		int age;
-    	string name;
-    	int telp;
-    	string bday;
+    		string name;
+    		int telp;
+    		string bday;
 };
 class operation {
 	private:
