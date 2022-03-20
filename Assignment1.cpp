@@ -1,3 +1,8 @@
+//Sir im sorry for my work, I know that it still has many mistakes in it.
+//CPP is just still new for me, its hard to understand compared to the other -
+//programming languages I've learned.
+
+
 #include<iostream>
 #include<string>
 using namespace std;
