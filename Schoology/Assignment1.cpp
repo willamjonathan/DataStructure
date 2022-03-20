@@ -72,6 +72,11 @@ class operation {
 };
 
 int main(){
+	int n;
+	cout<<" Hello! Welcome to PhoneBook program!"<<endl;
+	cout<<" \nPlease click 1 to start the program!"<<endl;
+	cin>>n;
+	if(n==1){
 	
 	
 	int z;
@@ -96,5 +101,8 @@ int main(){
 		}else{
 			cout<<"Wrong keystroke."<<endl;
 		}
-	}	
+	}
+	}else{
+		cout<<"click 1"<<endl;
+	}
 }
