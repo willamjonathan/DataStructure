@@ -10,10 +10,11 @@ using namespace std;
 
 class cont{
 	public:
+		string email;
+		int age;
     	string name;
     	int telp;
     	string bday;
-    	int age;
 };
 class operation {
 	private:
@@ -24,7 +25,7 @@ class operation {
     public:
     	int d = 20;
         cont full[20];
-          void search(){
+          void searchContact(){
         	cout << " Enter the name:  ";
             cin >> thename;
             	
@@ -34,11 +35,12 @@ class operation {
                     cout << "Name: " << full[y].name << endl;
                     cout << "Phone number: " << full[y].telp << endl;
                     cout << "Bday: " << full[y].bday << endl;
+                    cout << "Email: " << full[y].email << endl;
                     cout << "\n" <<endl;	
 				}
             }
         };
-          void remove(){
+          void removeContact(){
             cout << " Enter the name: ";
             cin >> thename;
             for(int  y= 0;y < 20; y++){
@@ -49,7 +51,7 @@ class operation {
             }
 
         };
-        void insert(){
+        void createContact(){
             cout << " Enter Contact Details :\n";
             cout << " Name: ";
             cin >> full[x].name;
@@ -57,6 +59,8 @@ class operation {
             cin >> full[x].telp;
             cout << " Bday: ";
             cin >> full[x].bday;
+            cout << "Email: " ;
+            cin >> full[x].email;
             x++;
             cout<< " Total Contact = " << x  << endl;
         };
@@ -81,11 +85,11 @@ int main(){
 		cout<<"What is your choice?"<<endl;
 		cin>>z;
 		if(z==1){
-			mine.insert();
+			mine.createContact();
 		}else if (z==2){
-			mine.remove();
+			mine.removeContact();
 		}else if(z==3){
-			mine.search();
+			mine.searchContact();
 		}else if(z==4){
 			key = 2;
 		}else{
