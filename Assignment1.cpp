@@ -63,6 +63,7 @@ class operation {
             cin >> full[x].email;
             x++;
             cout<< " Total Contact = " << x  << endl;
+		cout<< " \nContact has been added!"<<endl;
         };
 
 
