@@ -23,7 +23,7 @@ class operation {
     string thename;
     
     public:
-    	int d = 20;
+    	
         cont full[20];
           void searchContact(){
         	cout << " Enter the name:  ";
