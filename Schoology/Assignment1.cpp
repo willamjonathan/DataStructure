@@ -63,7 +63,7 @@ class operation {
             cin >> full[x].email;
             x++;
             cout<< " Total Contact = " << x  << endl;
-		cout<< " \nContact has been added!"<<endl;
+            cout<< " \nContact has been added!"<<endl;
         };
 
 
@@ -72,13 +72,13 @@ class operation {
 };
 
 int main(){
+	
 	int n;
 	cout<<" Hello! Welcome to PhoneBook program!"<<endl;
 	cout<<" \nPlease click 1 to start the program!"<<endl;
 	cin>>n;
-	if(n==1){
-	
-	
+	while(n==1){
+
 	int z;
 	operation mine;
 	int key = 1;
@@ -102,7 +102,5 @@ int main(){
 			cout<<"Wrong keystroke."<<endl;
 		}
 	}
-	}else{
-		cout<<"click 1"<<endl;
 	}
 }
