@@ -8,7 +8,7 @@ int recursion(int a){
 	}else if(a<0){
 		cout<<"Error, shouldn't be less than 0.\n";
 	}else if (a==0){
-		return 0;
+		return 1;
 	}
 	else {
 		return a* recursion(a-1);
