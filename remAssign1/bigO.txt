@@ -1,0 +1,4 @@
+void add = O(1)
+void display = O(n)
+void sell = O(n)
+void remover = O(n)
