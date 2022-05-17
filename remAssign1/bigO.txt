@@ -1,4 +1,11 @@
-void add = O(1);<br> reason = because it immediately adds to the linked list and doesn't require for loop.<br>
-void display = O(n);<br> reason = because of the existance of a for-loop, it needs to loop to all of the data in the linked list.<br>
-void sell = O(n);<br> reason = there is a for-loop use for searching the gamecode that wants to be sell, it causes the number of game sold to increase at the end of the linked list. 
-void remover = O(n);<br> reason = existance of a for-loop that is used for searching the gamecode that wants to be deleted.<br> 
+void addGame = O(1); 
+reason = because it immediately adds to the linked list and doesn't require for loop.
+
+void displayGame = O(n); 
+reason = because of the existance of a for-loop, it needs to loop to all of the data in the linked list.
+
+void sellGame = O(n); 
+reason = there is a for-loop use for searching the gamecode that wants to be sell, it causes the number of game sold to increase at the end of the linked list. 
+
+void deleteGame = O(n);
+reason = existance of a for-loop that is used for searching the gamecode that wants to be deleted. 
